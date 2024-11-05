@@ -1,0 +1,12 @@
+Description-
+Decrypt this message using this key "CYLAB".  
+Method- 
+The text given in message.txt is encrypted.
+
+From the title of the question we can gather that Vigenere cipher is used.
+
+ "CYLAB" is the key
+
+Thus, using "CYLAB" as key in Vigenere cipher,
+Solution-
+picoCTF{D0NT_US3_V1G3N3R3_C1PH3R_ae82272q}
