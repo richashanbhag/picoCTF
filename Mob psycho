@@ -1,0 +1,12 @@
+Description-
+Can you handle APKs?
+Download the android apk here.
+APK file was given with lots of files in it
+Hints-
+Did you know you can unzip APK files?
+Now you have the whole host of shell tools for searching these files.
+Method-
+lets extract APK
+So we found a .txt file but its in hex form which can be converted back to ASCII and we retrieve the flag.
+Solution-
+picoCTF{ax8mC0RU6ve_NX85l4ax8mCl_5e67ea5e}
