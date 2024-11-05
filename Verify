@@ -1,0 +1,19 @@
+Description-
+People keep trying to trick my players with imitation flags. I want to make sure they get the real thing! I'm going to provide the SHA-256 hash and a decrypt script to help you know that my flags are legitimate.
+Additional details will be available after launching your challenge instance.
+ssh -p 57693 ctf-player@rhea.picoctf.net
+Using the password 1db87a14. Accept the fingerprint with yes, and ls once connected to begin. Remember, in a shell, passwords are hidden!
+Checksum: 55b983afdd9d10718f1db3983459efc5cc3f5a66841e2651041e25dec3efd46a
+To decrypt the file once you've verified the hash, run ./decrypt.sh files/<file>.
+Hints -
+Checksums let you tell if a file is complete and from the original distributor. If the hash doesn't match, it's a different file.
+Remember you can pipe the output of one command to another with |. Try practicing with the 'First Grep' challenge if you're stuck!
+Method-
+Using ssh get the files in the picoCTF webshell and by using the given password we can get connected.We have checksum, decrypt.sh and a lot of files, we need to find the correct one and decrypt it
+The correct file will be the one, with which checksum matches and we also know that it has sha265 hash. So try sha256sum files/* | grep "5848768e56185707f76c1d74f34f4e03fb0573ecc1ca7b11238007226654bcda"
+The file which is encrypted: 8eee7195
+
+We can use decrypt.sh. So we can do ./decrypt.sh files/8eee7195
+
+Solution-
+picoCTF{trust_but_verify_8eee7195}
