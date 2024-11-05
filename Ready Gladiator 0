@@ -1,6 +1,10 @@
-Description-
+Description-  
 Can you make a CoreWars warrior that always loses, no ties?
 Additional details will be available after launching your challenge instance.
+Your opponent is the Imp. The source is available here. If you wanted to pit the Imp against himself, you could download the Imp and connect to the CoreWars server like this:
+nc saturn.picoctf.net 54297 < imp.red
 Hints-
 CoreWars is a well-established game with a lot of docs and strategy
 Experiment with input to the CoreWars handler or create a self-defeating bot
+Method-
+In imp.red ,there are certain sets of instructions. When these instructions are launched in nc, we get a tie hence the requirement is not fullfilled. So we need to change these instructions.
