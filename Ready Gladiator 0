@@ -8,10 +8,12 @@ CoreWars is a well-established game with a lot of docs and strategy
 Experiment with input to the CoreWars handler or create a self-defeating bot
 Method-
 In imp.red ,there are certain sets of instructions. When these instructions are launched in nc, we get a tie hence the requirement is not fullfilled.
+Data in imp.red-
 ;redcode
 ;name Imp Ex
 ;assert 1
 mov 0, 1
 end
+Open imp.red using vi: vi imp.red and edit move 0,1 to dat 0,1 and execute nc again
 Solution-
 picoCTF{h3r0_t0_z3r0_4m1r1gh7_be33d1f6}
