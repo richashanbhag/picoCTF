@@ -3,7 +3,7 @@ Decrypt this message using this key "CYLAB".
 Method- 
 The text given in message.txt is encrypted.
 
-From the title of the question we can gather that Vigenere cipher is used.
+From the title of the question we can understand that Vigenere cipher is used.
 
  "CYLAB" is the key
 
